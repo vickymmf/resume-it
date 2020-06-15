@@ -1,37 +1,23 @@
 ---
-update_time: '2017.08.06'
-name: 张睿武
-nickname: xiao555
-meta_content: 大三前端狗，HR姐姐们把我招到碗里去吧
-keywords: xiao555,前端,工作,简历
-ga_id: 'UA-92595311-1'
-age: 22岁
+name: 方晓腾
+meta_content: 前端开发
+keywords: 前端,工作,简历
+age: 26岁
 gender: 男
-school: 西安电子科技大学
-profession: 软件工程
-grade: 大四
-english_level: CET-6
-blog: https://www.xiao555.com.cn
-github: https://www.github.com/xiao555
-website: 
-online: https://xiao555.github.io/Resume/
-print: https://xiao555.github.io/Resume/print.html
+school: 中国计量大学
+profession: 信息与计算科学
+english_level: CET-4
+online: https://vickymmf.github.io/jianli/
 apply_to_position: Web前端工程师
-description: !!md |
-  我叫张睿武，西电软件学院大四学生，现在在腾讯TEG实习，负责前端开发。自学web前端，后端Node.js，PHP 也略知一二。能折腾，喜欢在实践中学习，学Vue的时候就是看两天文档，然后直接用在写个人博客上，在不断的跳坑脱坑中进步。希望在工作中能应用到自己所学的东西，跟产品一同成长。
 contact: # 联系方式
   -
     icon: fa-envelope
     name: Email
-    value: zhangruiwu32@gmail.com
-  -
-    icon: fa-qq
-    name: QQ
-    value: '1335497539'
+    value: 15957198626@163.com
   -
     icon: fa-phone-square
     name: PhoneNumber
-    value: '18729316081'
+    value: '13116748356'
 honor: # 奖项荣誉
 tech: # 技能点
   -
@@ -41,128 +27,93 @@ tech: # 技能点
     name: JavaScript
     percentage: 60%
   -
-    name: PHP
-    percentage: 50%
-  -
     name: Git
     percentage: 60%
   -
-    name: Node.js
-    percentage: 40%
+    name: Vue
+    percentage: 70%
+  -
+    name: react
+    percentage: 50%
+  -
+    name: 小程序
+    percentage: 70%
 experience: # 项目经验
   -
-    section: 个人项目
+    section: 杭州求圣科技
     project:
       -
-        name: nunjucks-extend-loader
-        date: 2017.2
-        img:
-        website:
-        source_code: https://github.com/xiao555/nunjucks-extend-loader
+        name: 齐车大圣H5
+        date: 2017.7 - 2017.11
         des: !!md |
-          开发了一个多页应用脚手架[Webjucks](https://github.com/xiao555/Webjucks)，开发框架的过程中，自己写了个loader，已发布在npm上。用 Node的fs模块递归创建不存在的目录，最后通过回调函数完成最后一步copy文件的动作。
+          入职后参与的第一个项目， 是一个基于vue搭建的单页面应用。项目是配合b端金斗云为不同4S店提供相应的的C端h5。集合了个人爱车管理，订单支付， 订单管理，卡券业务等模块，以及配合b端实现的预约保养，道路救援功能。
+
+          项目中使用了 vue + vue router + vuex，并引进了alipay的jssdk实现余额宝/花呗支付功能，并和支付宝的卡券包系统打通，实现领券，核销券的功能。后期也同时接入了微信支付以及微信的卡券。
+
+          正是通过这个项目，一步步熟悉vue的各项开发内容，到后面能单独负责整个H5的开发维护以及到能使用vue单独开发其他h5项目。
+
+          h5页面成熟之后,基于小程序提供的能力, 由我自己负责又单独开发了支付宝小程序和微信小程序版本. 对支付系统和卡券系统做了小程序版的优化定制.从后台数据打通,实现了多端使用.
       -
-        name: Resume-it
-        date: 2017.2
-        img:
-        website:
-        source_code: https://github.com/xiao555/Resume-it
+        name: 码上挪车 
+        date: 2017.11 - 2018.11
         des: !!md |
-          知乎上看大家的简历，感觉模板很多，但个人信息是不变的，所以我就想搞一个数据模板分离的简历生成器，这样无论换模板还是改数据都非常方便。暂时 48 star，21 fork，有人用是最好的。
-          
-          最初是用webpack打包的，后来换成了Gulp，简单易用，不必上webpack，后面打算改造成页面可以直接修改的。
+          一款扫码匿名通知车主挪车的产品. 始于支付宝小程序内测合作产品, 初始版本提供线上生成挪车码, 扫码能拨打电话的功能. 后面增加了车贴购买,车贴绑定,扫码电话及短信通知的功能.
+
+          此产品包括支付宝,微信,百度小程序,h5版本, 也为各个合作方,比如滴滴,小桔,招商提供了定制的h5页面. 各个小程序平台的开发大体大同小异. 由于开发时,支付宝和百度小程序都属于内测阶段,会有一些离奇的bug.比如 百度在安卓的频繁调用ohshow生命周期, 表单提交的时候id没有上传. 支付宝在做数据统计的时候,安卓端无法统计进去. 不过通过沟通反馈bug,也更加熟悉小程序的开发流程和原理.
+
+          同时在h5方面.主要使用了vue全家桶进行开发开发. 不同的合作方也有不同的ui方面或者其他适应该平台非需求,比如滴滴要求使用滴滴的ui框架cube, 招商要接入招行信用卡支付.
       -
-        name: Blog
-        date: 2017.4-至今
-        img:
-        website:
-        source_code: https://github.com/xiao555/blog
+        name: 驾考题库(react) 
+        date: 2018.10 - 2019.1
         des: !!md |
-          用来练手Vue的项目，基于Koa2 + Vue2 + MongoDB + Redis 搭建的 前后端分离 + RESTful API + SSR 的博客系统，并且进行了性能优化，加快首屏渲染速度。
-          
-          最近参考vue-hacknews2.0对前端部分进行了一次重构，新版本的webpack打包体积好小，实现了按需加载css，服务器部分也正准备上docker，正在写dockerfile中...
+          是一个集科目一,科目四题库,图标速记,错题查看,模拟考试等功能的驾考类项目.
+
+          这个项目使用Taro + Taro ui + Dva进行开发, Taro是一套遵循 React 语法规范的多端统一开发框架. 由于第一次接触react开发, 所以从项目搭建,到前期的代码编写给我带来了极大的挑战.但同时React的组件化思想配合简化的dva,开发体验优于限制较大的小程序.
+
+          用css3动画优化了题目之间的互相切换的滑动体验, 对高度重复使用的题目页面, 也用高阶组件进行封装,用以在不同的比如考试,背题,答题等等不同答题模式下使用.
   -
-    section: 实习经历
-    exper:
-      - 
-        company: 腾讯
-        time: 2017.7.14 - 2017.9.1
-        desc: !!md |
-          在TEG研发管理部TAPD中心实习，主要做前端方面的实现需求，解决bug等工作。
-        project:
-          -
-            des: !!md |
-              技术需求上，改造过内部的一个手机号验证组件，实现了多实例，状态保存等功能，在代码层面也做了优化，减少$的使用，重复运行的代码抽离出来等等。
-          -
-            des: !!md |
-              业务需求上，在做官网轮播图需求的时候，把旧的代码封装成内部组件，并且可以绑定多个实例，实现代码的复用。
-          -
-            des: !!md |
-              在解决bug的过程中，也积累了不少经验，比如有ie下的background：rgba兼容性问题，通过google用filter解决的。
-          -
-            des: !!md |
-              在开发的过程中，我会思考怎么实现是最好的，团队的产品也教会了我认真做好每一个细节。在腾讯的人生第一次职场之旅，我觉得ok。
-      - 
-        company: WPNinja
-        time: 2016.7 - 2017.5
-        desc: 这是一个面向国外客户的远程开发团队，基于wordpress搭建网站，前五个月我负责前端部分的开发, 最大程度的还原设计稿，完成页面交互，后面开始负责后端PHP开发。
-        project:
-          -
-            name: SSRGA
-            date: '2016.7'
-            img: https://xiao555.netlify.com/ssrga.jpg
-            website: http://www.ssrga.com/
-            source_code:
-            des: !!md |
-              这是我接手的第一个项目，为了适应团队框架完成页面我快速学习了模板引擎Nunjucks，CSS预处理器Stylus，数据层YAML语法等等。
-              然后在实践中巩固，最终一个周左右实现了这个项目的前端部分。
-          -
-            name: Clubfit
-            date: '2016.8'
-            img: https://xiao555.netlify.com/clubfit.jpg
-            website: http://clubfit.vwmdev.com/
-            source_code:
-            des: !!md |
-              接手这个项目时已经对团队的框架比较熟悉了，这个项目也包括了很多页面组件，算是强化练习吧。每天的代码leader会review，我再相应的做出修改，整个过程下来收获很多，是一次蜕变。
-          -
-            name: taldumande
-            date: '2016.9'
-            img: https://xiao555.netlify.com/taldumande.jpg
-            website: https://www.taldumande.org.au/
-            source_code:
-            des: !!md |
-              这是项目前端已经能完全独立完成了，设计也有很多有趣的地方，像header，footer部分两种颜色，为了不影响其它布局也比较方便用伪元素解决。没有很难的地方，细节很多，也比较考验布局能力。
-          -
-            name: workforceprofessionals
-            date: '2016.10'
-            img: https://xiao555.netlify.com/workforceprofessionals.jpg
-            website: https://workforceprofessionals.org/
-            source_code:
-            des: !!md |
-              这个项目我负责后端，跟leader语音交流了一下后端框架的用法，研究了两三天大体了解了基于wordpress的后端的工作方式，于是用边写边学的方式完成了这个项目。我做的就是写项目有关的逻辑，数据的导入获取等等。
-              另外，首页的下面的Twitter部分是我写的，之前获取tweet的方法需要各种key麻烦还有问题，我查了好久找到一个相关的js库Twitter-Post-Fetcher，使用简单。
-          # -
-          #   name: innerdoor
-          #   date: 2016.11 - 至今
-          #   img: https://xiao555.netlify.com/innerdoor.jpg
-          #   website: http://innerdoor.vwmdev.com/
-          #   source_code:
-          #   des: !!md |
-          #     这个项目相当于一个会员系统，数据都是通过API来获取的，有大量的表格，需要从API获取大量的数据，处理数据，渲染到前端页面上。
-          #     一开始我写了一堆if-else，数据跟表单一一对应，后来发现这样做代码量很大，而且不够灵活。后来重新安排数据结构，用label作为key值，前端表单label作为value值，通过模板引擎跟后端对应起来，这样既大大减少了代码量，也提高了灵活性。
+    section: 杭州城市大数据
+    project:
+      -
+        name: 杭州银行智能客服
+        date: 2019.5 - 2019.8
+        des: !!md |
+          智能客服系统,提供问题智能答复.
+
+          项目使用技术为react + redux + antDesign. 我进入项目时已经是个比较成熟的产品了.之后负责维护修改系统以及一些小功能的迭代.比如增加用户对回答的评价功能,优化对话框显示.
+
+          该项目有成熟的目录结构和完善的代码体系规则,从中学习到很多react代码规则.对比之前自己写的react项目,不管是代码设计,数据传递,还是一些api管理和代码规范,都更加成熟. 使我对react的项目有了更深的理解.
+      -
+        name: 湖州智慧大屏
+        date: 2019.9 - 2020.1
+        des: !!md |
+          参与公司很多大屏类项目, 基本都基于vue + echarts进行开发的项目.
+
+          大屏做过几类, 一种是利用图表进行数据展示,还有一种是利用地图,做一些类似交通提醒,早晚高峰,停车场标识.
+          纯数据展示的比较简单,但也更注重细节, 对图标摆放位置, 一些动效,数据可视化合理性更为注重. 往往都是在几像素的偏移或者展示不合理花费的时间更多.
+
+          地图类大屏, 做过湖州早晚高峰标识, 利用高德地图api对早晚高峰地段进行标识,展示在大屏上. 同时接入了湖州的视屏监控,对拥堵路段的的实时路况进行视屏展示.
+          
+      -
+        name: 杭州国资委信息系统
+        date: 2019.11 - 至今
+        des: !!md |
+          参与过许多后台管理类项目,大多大同小异,一般以vue全家桶加antdesign进行开发. 国资委信息管理系统是项目其中比较复杂的一个.
+
+          整个项目包括基础后台管理类的权限,角色, 系统管理. 还有流程类的开发.
 skill: # 技能清单
       -
         des: !!md |
-          能够用 HTML + CSS 编写语义化的代码，完成较复杂的布局，熟悉Stylus、PostCss 等css预处理、后处理工具
+          能够用 HTML + CSS 编写语义化的代码，完成较复杂的布局,能用原生或jquery编写静态响应式页面
       -
         des: !!md |
-          在Blog项目中熟悉了 Vue，写过Vue的双向数据绑定[Demo](https://github.com/xiao555/Two-way-Data-Bindings)， 使用了 ES6、7 的新语法，了解 Node.js, jQuery.
+          熟悉各类小程序的开发流程, 能熟练开发微信小程序, 支付宝小程序等
       -
         des: !!md |
-          熟悉 Git Webpack Gulp 等开发工具
+          熟悉h5移动端开发, 能熟练使用vue全家桶进行h5开发. 对react也有使用经验,有单独开发过react项目.
       -
         des: !!md |
-          熟悉 Koa, Express, MongoDB, Mysql 能搭建简单的后端项目，租了Digital Ocean 的VPS，腾讯云 部署网站
+          熟悉可视化开发,能熟练使用echarts进行可视化大屏开发. 后台管理类项目经验丰富
 
 
 ---
